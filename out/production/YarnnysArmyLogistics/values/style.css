@@ -1,0 +1,40 @@
+.dashboard-pane{
+    -fx-background-color: #fff;
+    -fx-border-color: #5B506D;
+}
+
+.button-raised{
+    -jfx-button-type: RAISED;
+    -fx-background-color: #D2B6FF;
+    -fx-text-fill: WHITE;
+    -fx-background-radius: 30;
+}
+.button-raised:hover{
+    -jfx-button-type: RAISED;
+    -fx-background-color: #9E71E7;
+    -fx-text-fill: WHITE;
+    -fx-background-radius: 30;
+}
+.button-raised:pressed{
+    -jfx-button-type: RAISED;
+    -fx-background-color: #D2B6FF;
+    -fx-text-fill: WHITE;
+    -fx-background-radius: 30;
+}
+.profile-layout{
+    -fx-background-color: #fff;
+    -fx-background-radius: 0 0 30 30;
+}
+
+.top-header{
+    -fx-background-color: #5B506D;
+}
+
+.dashboard-search{
+    -fx-border-radius: 30;
+    -fx-border-color: #80C0FF;
+}
+
+.dashboard-menu{
+    -fx-background-color: #5B506D;
+}
