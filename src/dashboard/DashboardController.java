@@ -71,20 +71,16 @@ public class DashboardController implements Initializable {
     }
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        List<User> users = new ArrayList<>(addUser());
-        for (User user : users) {
-            FXMLLoader fxmlLoader = new FXMLLoader();
-            fxmlLoader.setLocation(getClass().getResource("dashboard.fxml"));
-            DashboardController dash = fxmlLoader.getController();
-            dash.setData(user);
+        for (var user : addUser()){
+            setData(user);
         }
     }
 
 
 
     public void setData (User user){
-        userName.setText(user.getFirstName() + user.getLastName());
-        dashboardEmpName.setText(user.getFirstName() + user.getLastName());
+        userName.setText(user.getFirstName() + " " + user.getLastName());
+        dashboardEmpName.setText(user.getFirstName() + " " + user.getLastName());
         dashboardAddress.setText(user.getAddress());
         Image img = new Image(getClass().getResourceAsStream(user.getImage()));
         userProfile.setImage(img);

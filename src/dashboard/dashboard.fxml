@@ -26,7 +26,7 @@
                         <Insets top="10.0" />
                      </VBox.margin>
                   </ImageView>
-                  <Label fx:id="userName" text="Yarnell Locklear" textFill="#9a9a9a">
+                  <Label fx:id="userName" text="" textFill="#9a9a9a">
                      <VBox.margin>
                         <Insets top="5.0" />
                      </VBox.margin>
@@ -76,7 +76,7 @@
                               <Insets left="10.0" />
                            </HBox.margin>
                         </Label>
-                        <Label fx:id="dashboardEmpName" text="Ferriss Yarnell Locklear Jr.">
+                        <Label fx:id="dashboardEmpName" text="">
                            <font>
                               <Font size="19.0" />
                            </font>
@@ -93,7 +93,7 @@
                               <Font size="19.0" />
                            </font>
                         </Label>
-                        <Label fx:id="dashboardAddress" text="210 Melinda Rd. Maxton, NC 28364">
+                        <Label fx:id="dashboardAddress" text="">
                            <font>
                               <Font size="19.0" />
                            </font>
